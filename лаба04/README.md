@@ -22,7 +22,7 @@ vagrant up
 sudo ip link set vboxnet0 up
 sudo ip addr add 192.168.11.1/24 dev vboxnet0
 
-<a href="https://ibb.co/4gYS0XS"><img src="https://i.ibb.co/h1ZdT4d/image.png" alt="image" border="0"></a>\
+<a href="https://ibb.co/4gYS0XS"><img src="https://i.ibb.co/h1ZdT4d/image.png" alt="image" border="0"></a>
 
 -запуск playbook
 ansible-playbook nginx.yml
@@ -35,4 +35,4 @@ ansible-playbook nginx.yml
 
 Кастомная страница web2
 
-<a href="https://ibb.co/rx5Q3f0"><img src="ttps://i.ibb.co/c62ywX3/2.png" alt="2" border="0"></a>\
+<a href="https://ibb.co/rx5Q3f0"><img src="https://i.ibb.co/c62ywX3/2.png" alt="2" border="0"></a>
