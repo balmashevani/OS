@@ -2,7 +2,9 @@
 Виртуальные машины:
 
 web1
+
 web2
+
 rrobin
 
 !Сервера web1 и web2 должны генерировать кастомную страницу, а robbin будет настраивать балансировку нагрузки этих серверов в режиме round-robin
@@ -16,16 +18,16 @@ rrobin
 Команды:
 
 -поднимаем виртуалки
-vagrant up
+`vagrant up`
 
 -(у меня выходила ошибка, поэтому я использовала еще и след. команды)
-sudo ip link set vboxnet0 up
-sudo ip addr add 192.168.11.1/24 dev vboxnet0
+`sudo ip link set vboxnet0 up`
+`sudo ip addr add 192.168.11.1/24 dev vboxnet0`
 
 <a href="https://ibb.co/4gYS0XS"><img src="https://i.ibb.co/h1ZdT4d/image.png" alt="image" border="0"></a>
 
 -запуск playbook
-ansible-playbook nginx.yml
+`ansible-playbook nginx.yml`
 
 Кастомные страницы:
 
