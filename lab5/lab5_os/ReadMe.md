@@ -29,9 +29,12 @@ vagrant destroy --force
 vagrant up
 ````
 
-### Далее появляется куча ошибок
+
+### Далее появляется куча ошибок🙃🙃🙃🙃🙃🙃🙃🙃
+
 
 Никита Андреевич вводит волшебные команды, и все начинает работать✨
+
 
 ### Затем появляется моя любимая ошибка)))))))))))))))))))))))))))))))))))))))))))))
 
@@ -46,20 +49,33 @@ sudo ip link set vboxnet0 up
 sudo ip addr add 192.168.11.1/24 dev vboxnet0
 ````
 
-Возвращаемся playbook:
+
+Возвращаемся к playbook:
 
 ````
 ansible-playbook nginx.yml 
 ````
 
+
 ## Проверка балансировщика
-### Всё прекрасно
-![всё прекрасно](https://github.com/naaastyazharkova/Operating-System/blob/lab-05/lab5_os/pictures/ha1%2B2.png)
+
+
+<a href="https://ibb.co/sFMCFTy"><img src="https://i.ibb.co/rZ13ZB4/web1.png" alt="web1" border="0"></a>
+
+
+<a href="https://ibb.co/BTRPMhZ"><img src="https://i.ibb.co/HGQ28cz/web2.png" alt="web2" border="0"></a>
+
+
+<a href="https://ibb.co/d0Dwhw3"><img src="https://i.ibb.co/7JKd9dT/all-running.png" alt="all-running" border="0"></a>
 
 
 ## Проверка отказоустойчивости
+
+
 ### Отключен haproxy1
-![отключен haproxy1](https://github.com/naaastyazharkova/Operating-System/blob/lab-05/lab5_os/pictures/ha2.png)
+
+
+
 
 ### Отключен haproxy2
-![отключен haproxy2](https://github.com/naaastyazharkova/Operating-System/blob/lab-05/lab5_os/pictures/ha1.png)
+
