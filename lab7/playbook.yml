@@ -1,0 +1,6 @@
+- name: psql
+  hosts: postgres
+  become: true
+  strategy: linear
+  roles:
+    - client
