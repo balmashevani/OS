@@ -66,10 +66,10 @@ ansible-playbook consul.yml
 ansible-playbook playbook.yml
 ````
 
-<a href="https://ibb.co/k4mC5qt"><img src="https://i.ibb.co/x1FTXzN/epta1.png" alt="epta1" border="0"></a>
-
-
-<a href="https://ibb.co/8bhCfKR"><img src="https://i.ibb.co/yp39ZfM/epta2.png" alt="epta2" border="0"></a>
-
-
 # Ваууу🙌✨ звуки восторга и зеленой ячейки в табличке💚💚💚
+
+<a href="https://ibb.co/yRN18zj"><img src="https://i.ibb.co/591y5QH/blya1.png" alt="blya1" border="0"></a>
+
+<a href="https://ibb.co/KWvw7kH"><img src="https://i.ibb.co/tDrXct5/blya2.png" alt="blya2" border="0"></a>
+
+
