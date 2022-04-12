@@ -47,7 +47,7 @@ yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_6
 * Cносим все нафиг, а для чего же мы еще это так долго делали🙃🙃🙃🙃🙃🙃🙃🙃
 
 ````
-vagrant desroy --force
+vagrant destroy --force
 ````
 
 * Запускаем виртуалку
@@ -55,11 +55,21 @@ vagrant desroy --force
 ````
 vagrant up
 ```` 
+* Какой-то consul, наверное, из посольства)))
+````
+ansible-playbook consul.yml
+````
 
 * Запускаем чудесный-расчудесный playbook (плэй - играть, бук - книга)
 
 ````
 ansible-playbook playbook.yml
 ````
+
+<a href="https://ibb.co/sFMCFTy"><img src="https://i.ibb.co/rZ13ZB4/web1.png" alt="web1" border="0"></a>
+
+
+<a href="https://ibb.co/BTRPMhZ"><img src="https://i.ibb.co/HGQ28cz/web2.png" alt="web2" border="0"></a>
+
 
 # Ваууу🙌✨ звуки восторга и зеленой ячейки в табличке💚💚💚
